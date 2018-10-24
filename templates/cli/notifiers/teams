@@ -1,0 +1,13 @@
+  ##
+  # Teams [Notifier]
+  #
+  notify_by Teams do |teams|
+    teams.on_success = true
+    teams.on_warning = true
+    teams.on_failure = true
+
+    # Room id
+    teams.roomId     = 'my_room_id'
+    # The auth token 
+    teams.token      = 'my_token'
+  end
