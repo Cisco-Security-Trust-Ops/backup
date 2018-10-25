@@ -45,10 +45,12 @@ Gem::Specification.new do |gem|
   gem.add_dependency "aws-sdk", "~> 2"
   gem.add_dependency "qiniu", "~> 6.5"
   gem.add_dependency "nokogiri", "~> 1.8", ">= 1.8.1"
+  gem.add_dependency "multipart-post", "~> 2.0.0"
 
   gem.add_development_dependency "rubocop", "0.48.1"
   gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec", "3.5.0"
   gem.add_development_dependency "mocha", "0.14.0"
   gem.add_development_dependency "timecop", "0.7.1"
+  gem.add_development_dependency "webmock", "3.4.2"
 end

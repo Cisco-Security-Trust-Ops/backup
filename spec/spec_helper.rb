@@ -3,6 +3,7 @@ require "bundler/setup"
 require "backup"
 
 require "timecop"
+require "webmock/rspec"
 
 Dir[File.expand_path("../support/**/*.rb", __FILE__)].each { |f| require f }
 
